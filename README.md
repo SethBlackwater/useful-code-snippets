@@ -35,3 +35,30 @@ RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 Source: https://stackoverflow.com/a/4958847/7872728
 
 
+### Wordpress default htaccess
+```
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+```
+Source: https://wordpress.org/support/article/htaccess/
+
+
+### Block certain IP addresses
+```
+Order Allow,Deny
+Deny from 66.249.74.10
+Allow from all
+```
+Source: https://stackoverflow.com/a/18483210/7872728
+
+### Block range of IP addresses
+```
+Order Allow,Deny
+Deny from 66.249.74.0/24
+Allow from all
+```
+Source: https://stackoverflow.com/a/18483210/7872728
