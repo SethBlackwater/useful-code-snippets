@@ -31,6 +31,7 @@ RewriteCond %{HTTPS}s ^on(s)|
 RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 ```
 >NOTE: This will redirect ALL subdomains to www
+
 Source: https://stackoverflow.com/a/4958847/7872728
 
 
