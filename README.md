@@ -10,6 +10,9 @@ Some useful codes snippets I use.
 * [Block range of IP addresses](#block-range-of-ip-addresses)
 * [Common caching script](#common-caching-script)
 * [Turn Gzip on](#turn-gzip-on)
+### [HTML](#html-1)
+* [HTML blank mobile friendly template](html-blank-mobile-friendly-template)
+* [HTML mobile viewport](html-mobile-viewport)
 
 # .htaccess
 
@@ -138,4 +141,25 @@ Source: https://gtmetrix.com/leverage-browser-caching.html
 Source: https://gtmetrix.com/enable-gzip-compression.html
 
 
+# HTML
 
+### HTML blank mobile friendly template
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
+
+
+### HTML mobile viewport
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+Source: https://www.w3schools.com/css/css_rwd_viewport.asp
