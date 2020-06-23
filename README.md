@@ -1,7 +1,7 @@
 # Useful code snippets
 Some of the most useful codes snippets around.
 
-[.htaccess](#htaccess)
+### [.htaccess](#htaccess)
 * [Force HTTPS on all requests](#force-https-on-all-requests)
 
 ## .htaccess
