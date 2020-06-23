@@ -11,8 +11,9 @@ Some useful codes snippets I use.
 * [Common caching script](#common-caching-script)
 * [Turn Gzip on](#turn-gzip-on)
 ### [HTML](#html-1)
-* [HTML blank mobile friendly template](html-blank-mobile-friendly-template)
-* [HTML mobile viewport](html-mobile-viewport)
+* [HTML blank mobile friendly template](#html-blank-mobile-friendly-template)
+* [HTML mobile viewport](#html-mobile-viewport)
+
 
 # .htaccess
 
@@ -163,3 +164,5 @@ Source: https://gtmetrix.com/enable-gzip-compression.html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 Source: https://www.w3schools.com/css/css_rwd_viewport.asp
+
+
