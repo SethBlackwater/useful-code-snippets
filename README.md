@@ -1,8 +1,15 @@
 # Useful code snippets
 Some of the most useful codes snippets around.
 
-### [.htaccess](#htaccess)
+### [.htaccess](#htaccess-1)
 * [Force HTTPS on all requests](#force-https-on-all-requests)
+* [Add trailing slash](#add-trailing-slash)
+* [Force WWW before domain name](#force-www-before-domain-name)
+* [Wordpress default htaccess](#wordpress-default-htaccess)
+* [Block certain IP addresses](#block-certain-ip-addresses)
+* [Block range of IP addresses](#block-range-of-ip-addresses)
+* [Common caching script](#common-caching-script)
+* [Turn Gzip on](#turn-gzip-on)
 
 ## .htaccess
 
