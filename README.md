@@ -5,7 +5,7 @@ Some of the most useful codes snippets around.
 
 ## .htaccess
 
-##### Force HTTPS on all requests
+### Force HTTPS on all requests
 ```
 RewriteEngine On
 RewriteCond %{HTTPS} off
@@ -13,7 +13,8 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ```
 Source: https://www.siteground.com/kb/how-to-force-ssl-with-htaccess/
 
-##### Add trailing slash
+
+### Add trailing slash
 ```
 RewriteCond %{REQUEST_URI} !(/$|\.) 
 RewriteRule (.*) %{REQUEST_URI}/ [R=301,L] 
