@@ -1,5 +1,5 @@
 # Useful code snippets
-Some of the most useful codes snippets around.
+Some useful codes snippets I use.
 
 ### [.htaccess](#htaccess-1)
 * [Force HTTPS on all requests](#force-https-on-all-requests)
@@ -11,7 +11,7 @@ Some of the most useful codes snippets around.
 * [Common caching script](#common-caching-script)
 * [Turn Gzip on](#turn-gzip-on)
 
-## .htaccess
+# .htaccess
 
 ### Force HTTPS on all requests
 ```
