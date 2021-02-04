@@ -1,7 +1,7 @@
 # Useful code snippets
 Some useful codes snippets I use.
 ### [JavaScript](#javascript-1)
-* [Move input cursor to end of text/number](#move-input-cursor-to-end-of-text-number)
+* [Move input cursor to end of text/number](#move-input-cursor-to-end-of-textnumber)
 ### [.htaccess](#htaccess-1)
 * [Force HTTPS on all requests](#force-https-on-all-requests)
 * [Add trailing slash](#add-trailing-slash)
