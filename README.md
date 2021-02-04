@@ -1,6 +1,7 @@
 # Useful code snippets
 Some useful codes snippets I use.
-
+### [JavaScript](#javascript-1)
+* [Move input cursor to end of text/number](#move-input-cursor-to-end-of-text-number)
 ### [.htaccess](#htaccess-1)
 * [Force HTTPS on all requests](#force-https-on-all-requests)
 * [Add trailing slash](#add-trailing-slash)
@@ -13,6 +14,21 @@ Some useful codes snippets I use.
 ### [HTML](#html-1)
 * [HTML blank mobile friendly template](#html-blank-mobile-friendly-template)
 * [HTML mobile viewport](#html-mobile-viewport)
+
+# JavaScript
+
+### Move input cursor to end of text/number
+```
+function moveCursorToEnd(input){
+   var inputValue = input.value;
+   input.focus();
+   input.value = null;
+   input.value = inputValue;
+}
+
+//Usage
+moveCursorToEnd(document.getElementById('formTextInput'));
+```
 
 
 # .htaccess
